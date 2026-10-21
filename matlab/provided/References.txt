@@ -1,0 +1,3 @@
+http://yann.lecun.com/exdb/mnist/
+https://in.mathworks.com/help/deeplearning/ug/data-sets-for-deep-learning.html
+https://in.mathworks.com/matlabcentral/fileexchange/27675-read-digits-and-labels-from-mnist-database
