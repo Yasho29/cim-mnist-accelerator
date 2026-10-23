@@ -126,6 +126,10 @@ The first phase explored a different implementation of the same idea:
 | **Write butterfly** | **C-2C column output vs weight** |
 | ![](figures/phase1/write_butterfly_snm.png) | ![](figures/phase1/c2c_column_output_vs_weight.png) |
 
+## LTspice schematics
+
+The compute cell, input DAC, transmission-gate switch and a weight-row testbench are in [`ltspice/`](ltspice/), with the PTM 22 nm model they use and the Monte Carlo mismatch set-up. See [`ltspice/README.md`](ltspice/README.md).
+
 ## Running the MATLAB code
 
 Requires MATLAB with the Fixed-Point Designer toolbox (for `fi`).
@@ -147,6 +151,7 @@ reports/            Phase 1 and Phase 2 reports (Group 12)
 figures/phase1/     Phase 1 plots
 figures/phase2/     Phase 2 plots and architecture diagrams
 matlab/             MATLAB models (.m), original live scripts (mlx/), provided files (provided/)
+ltspice/            LTspice schematics, symbols and the PTM 22 nm model
 ```
 
 ## References
